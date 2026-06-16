@@ -29,6 +29,7 @@ Local URLs:
 - Frontend: `http://localhost:3000`
 - API: `http://localhost:8080`
 - API health: `http://localhost:8080/healthz`
+- Postgres host port: `55432` by default via `DB_PORT`
 
 The first login code is returned in the API response when `APP_ENV=development`.
 

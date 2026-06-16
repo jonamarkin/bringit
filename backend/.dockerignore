@@ -1,0 +1,6 @@
+server
+tmp
+.git
+.env
+*.log
+coverage
