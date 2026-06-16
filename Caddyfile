@@ -1,0 +1,11 @@
+{
+    email admin@example.com
+}
+
+bringit.example.com {
+    reverse_proxy web:3000
+}
+
+api.bringit.example.com {
+    reverse_proxy api:8080
+}

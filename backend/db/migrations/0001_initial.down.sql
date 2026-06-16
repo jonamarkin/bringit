@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS notifications;
+DROP TABLE IF EXISTS activity_events;
+DROP TABLE IF EXISTS item_claims;
+DROP TABLE IF EXISTS event_items;
+DROP TABLE IF EXISTS event_guests;
+DROP TABLE IF EXISTS event_hosts;
+DROP TABLE IF EXISTS events;
+DROP TABLE IF EXISTS email_otps;
+DROP TABLE IF EXISTS users;
+DROP FUNCTION IF EXISTS set_updated_at();

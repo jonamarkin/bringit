@@ -1,0 +1,9 @@
+.env
+.DS_Store
+backend/server
+backend/tmp/
+node_modules/
+dist/
+coverage/
+.nuxt/
+.output/
