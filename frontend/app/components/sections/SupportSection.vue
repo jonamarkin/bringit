@@ -45,9 +45,9 @@ onMounted(() => {
     <!-- Left Title -->
     <div class="lg:col-span-4 flex flex-col justify-center">
       <h2 class="text-6xl md:text-7xl xl:text-8xl font-bold tracking-tighter text-foreground mix-blend-normal leading-[0.9] support-text">
-        Support<br/>
-        at every<br/>
-        Step
+        Split the<br/>
+        bill<br/>
+        effortlessly
       </h2>
     </div>
 
@@ -60,7 +60,7 @@ onMounted(() => {
           </svg>
         </div>
         <p class="text-muted-foreground text-sm leading-relaxed pr-8">
-          Participate in the <span class="text-secondary underline underline-offset-4 decoration-secondary/50">loyalty program</span>. Pay for the service online to get bonuses for our other services. We have a lot of bonuses!
+          Organizing an event shouldn't mean you pay for everything. With <span class="text-secondary underline underline-offset-4 decoration-secondary/50">BringIt</span>, you can easily track who bought what and split the costs.
         </p>
       </div>
 
@@ -71,10 +71,10 @@ onMounted(() => {
           </svg>
         </div>
         <p class="text-muted-foreground text-sm leading-relaxed pr-8">
-          You can help other people: choose a donation fund and share the link with your friends!
+          Let your friends contribute exactly their share, directly from the event page.
         </p>
         <button class="mt-4 border border-primary text-primary font-medium py-3 px-8 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
-          Choose a fund
+          Learn about payments
         </button>
       </div>
     </div>
@@ -82,8 +82,8 @@ onMounted(() => {
     <!-- Right Image -->
     <div class="lg:col-span-4 flex justify-center lg:justify-end support-image">
       <div class="relative w-[320px] h-[480px] overflow-hidden pill-mask-vertical shadow-[0_0_60px_rgba(255,255,255,0.05)]">
-        <!-- Woman with child and red balloon placeholder -->
-        <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1000&auto=format&fit=crop" alt="Support program" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000" />
+        <!-- Woman with card placeholder -->
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1000&auto=format&fit=crop" alt="Splitting bill" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-1000" />
       </div>
     </div>
 

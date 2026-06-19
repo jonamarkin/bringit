@@ -45,19 +45,19 @@ onMounted(() => {
     <div class="testimonial-card relative w-full lg:w-[110%] bg-card rounded-[40px] p-8 md:p-12 pl-32 md:pl-48">
       <!-- Image Pill overlapping on the left -->
       <div class="absolute left-[-20px] md:left-[-40px] top-1/2 transform -translate-y-1/2 w-40 md:w-56 h-64 md:h-80 overflow-hidden pill-mask-vertical shadow-2xl">
-        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop" alt="Georgia Darcy" class="w-full h-full object-cover" />
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop" alt="Alex T." class="w-full h-full object-cover" />
       </div>
 
       <div class="space-y-6">
         <div>
-          <h3 class="text-3xl font-bold text-card-foreground mb-1">Georgia Darcy</h3>
-          <p class="text-muted-foreground/60 text-sm">The agency founder</p>
+          <h3 class="text-3xl font-bold text-card-foreground mb-1">Alex T.</h3>
+          <p class="text-muted-foreground/60 text-sm">Frequent Event Host</p>
         </div>
         <p class="text-muted-foreground text-sm leading-relaxed max-w-[350px]">
-          With over twenty years of industry experience, 'Darcy's insurance products' has learned a lot. The one thing we know for sure is that we're all about you. If you find searching for insurance frustrating, we are here to help.
+          Organizing our Luleå BBQ used to be a mess of WhatsApp messages and spreadsheets. With BringIt, people just clicked the link, claimed the sausages, and showed up. It saved me hours of headaches!
         </p>
         <button class="bg-secondary text-secondary-foreground font-semibold py-3 px-8 rounded-full hover:bg-secondary/80 transition-colors">
-          Get a consultation
+          Read case study
         </button>
       </div>
 
@@ -81,7 +81,7 @@ onMounted(() => {
         </div>
         <h2 class="text-6xl md:text-8xl font-bold tracking-tighter text-foreground mix-blend-normal leading-[0.9]">
           Our<br/>
-          experts<br/>
+          users<br/>
           say
         </h2>
       </div>

@@ -6,10 +6,10 @@ import { ArrowDown } from 'lucide-vue-next'
   <section class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center min-h-[80vh] relative pt-12">
     <!-- Left Typography -->
     <div class="lg:col-span-7 flex flex-col justify-center">
-      <h1 class="text-[5rem] sm:text-[6rem] md:text-[8rem] lg:text-[9rem] leading-[0.85] font-bold tracking-tighter text-foreground mix-blend-normal z-10 hero-title">
-        <span class="block overflow-hidden"><span class="block transform translate-y-full title-line">Darcy's</span></span>
-        <span class="block overflow-hidden"><span class="block transform translate-y-full title-line">insurance</span></span>
-        <span class="block overflow-hidden"><span class="block transform translate-y-full title-line">products</span></span>
+      <h1 class="text-[5rem] sm:text-[6rem] md:text-[8rem] lg:text-[9rem] leading-[0.95] font-bold tracking-tighter text-foreground mix-blend-normal z-10 hero-title">
+        <span class="block overflow-hidden"><span class="block transform translate-y-full title-line pb-4 -mb-4">BringIt</span></span>
+        <span class="block overflow-hidden"><span class="block transform translate-y-full title-line pb-4 -mb-4">to the</span></span>
+        <span class="block overflow-hidden"><span class="block transform translate-y-full title-line pb-4 -mb-4">party</span></span>
       </h1>
     </div>
 
@@ -22,7 +22,7 @@ import { ArrowDown } from 'lucide-vue-next'
           </svg>
         </div>
         <p class="text-muted-foreground text-sm leading-relaxed">
-          Our <span class="text-secondary underline underline-offset-4 decoration-secondary/50">plans</span> are saving policyholders 30% - 60% on premiums
+          Coordinate your <span class="text-secondary underline underline-offset-4 decoration-secondary/50">potlucks</span>, BBQs, and dinners without the chaotic group chats.
         </p>
       </div>
       <div class="space-y-4 max-w-[200px]">
@@ -32,7 +32,7 @@ import { ArrowDown } from 'lucide-vue-next'
           </svg>
         </div>
         <p class="text-muted-foreground text-sm leading-relaxed">
-          We offer a choice of low deductibles and include no cost value-added services.
+          Let guests RSVP and claim what they're bringing in real-time.
         </p>
       </div>
     </div>
@@ -41,7 +41,7 @@ import { ArrowDown } from 'lucide-vue-next'
     <div class="lg:col-span-3 flex justify-end h-full mt-12 lg:mt-0">
       <div class="relative w-[300px] h-[550px] overflow-hidden pill-mask-vertical shadow-[0_0_80px_rgba(132,215,233,0.15)] hero-image transform scale-95 opacity-0">
         <!-- Using a placeholder for the balloons image -->
-        <img src="https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=1000&auto=format&fit=crop" alt="Hot air balloons" class="object-cover w-full h-full transform hover:scale-110 transition-transform duration-1000" />
+        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1000&auto=format&fit=crop" alt="BBQ Party" class="object-cover w-full h-full transform hover:scale-110 transition-transform duration-1000" />
         <!-- Soft glow overlay -->
         <div class="absolute inset-0 shadow-[inset_0_0_50px_rgba(0,0,0,0.5)]"></div>
       </div>

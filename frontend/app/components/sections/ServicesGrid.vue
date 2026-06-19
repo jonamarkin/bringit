@@ -30,38 +30,38 @@ onMounted(() => {
     <!-- Top Row -->
     <div class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-6">
       
-      <!-- Home Insurance Card -->
+      <!-- Instant RSVPs Card -->
       <div class="md:col-span-5 service-card relative rounded-[40px] overflow-hidden group h-[320px] shadow-2xl cursor-pointer">
-        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1000&auto=format&fit=crop" alt="Home interior" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1000&auto=format&fit=crop" alt="Party Invite" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
         <div class="absolute bottom-6 left-6 right-6">
           <div class="bg-background/80 backdrop-blur-md px-6 py-3 rounded-full text-foreground font-medium inline-flex items-center gap-2 border border-border group-hover:bg-foreground group-hover:text-background transition-colors">
-            Home insurance
+            Instant RSVPs
           </div>
         </div>
       </div>
 
-      <!-- Lifebuoy Image Pill -->
+      <!-- Planning Image Pill -->
       <div class="md:col-span-3 service-card flex justify-center">
         <div class="relative w-full max-w-[220px] h-[320px] overflow-hidden pill-mask-vertical shadow-[0_0_40px_rgba(255,100,118,0.1)] group">
-          <img src="https://images.unsplash.com/photo-1601625902170-c509ce86b840?q=80&w=1000&auto=format&fit=crop" alt="Lifebuoy" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
+          <img src="https://images.unsplash.com/photo-1543007630-9710e4a00a20?q=80&w=1000&auto=format&fit=crop" alt="Planning notebook" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
           <div class="absolute inset-0 shadow-[inset_0_0_30px_rgba(0,0,0,0.3)]"></div>
         </div>
       </div>
 
-      <!-- Best Choice Card -->
+      <!-- Host smoothly Card -->
       <div class="md:col-span-4 service-card bg-card rounded-[40px] p-8 flex flex-col justify-between h-[320px] relative overflow-hidden group">
         <!-- Abstract gradient blob -->
         <div class="absolute -right-20 -top-20 w-48 h-48 bg-secondary opacity-10 rounded-full blur-[50px] group-hover:opacity-20 transition-opacity"></div>
         <div class="relative z-10">
-          <h3 class="text-4xl font-bold text-card-foreground mb-4">Best choice</h3>
+          <h3 class="text-4xl font-bold text-card-foreground mb-4">Host smoothly</h3>
           <p class="text-muted-foreground text-sm leading-relaxed">
-            Not all insurance are the same. That's why agency knows that your insurance should be customized to fit your situation.
+            Throwing a party shouldn't mean fronting all the costs or tracking who's bringing the ice. We handle the logistics so you can enjoy the BBQ.
           </p>
         </div>
-        <button class="relative z-10 bg-primary text-primary-foreground font-semibold py-4 px-6 rounded-full w-full hover:bg-primary/90 transition-colors hover:shadow-[0_0_20px_rgba(255,100,118,0.4)]">
-          View all services
-        </button>
+        <NuxtLink to="/event/lulea-bbq" class="relative z-10 bg-primary text-primary-foreground font-semibold py-4 px-6 rounded-full w-full text-center hover:bg-primary/90 transition-colors hover:shadow-[0_0_20px_rgba(255,100,118,0.4)] block">
+          View Example Event
+        </NuxtLink>
       </div>
       
     </div>
@@ -69,35 +69,35 @@ onMounted(() => {
     <!-- Bottom Row -->
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
       
-      <!-- Vehicle Damage -->
+      <!-- Item Claiming -->
       <div class="service-card relative rounded-[40px] overflow-hidden group h-[200px] shadow-xl cursor-pointer">
-        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=1000&auto=format&fit=crop" alt="Blue sports car" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
+        <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=1000&auto=format&fit=crop" alt="BBQ food" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
         <div class="absolute bottom-4 left-4">
           <div class="bg-background/80 backdrop-blur-md px-5 py-2.5 rounded-full text-foreground text-sm font-medium border border-border group-hover:bg-foreground group-hover:text-background transition-colors">
-            Vehicle damage
+            Item Claiming
           </div>
         </div>
       </div>
 
-      <!-- Mortgage Insurance -->
+      <!-- Expense Splitting -->
       <div class="service-card relative rounded-[40px] overflow-hidden group h-[200px] shadow-xl cursor-pointer">
-        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop" alt="Red house" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
+        <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=1000&auto=format&fit=crop" alt="Receipts and calculator" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
         <div class="absolute bottom-4 left-4">
           <div class="bg-background/80 backdrop-blur-md px-5 py-2.5 rounded-full text-foreground text-sm font-medium border border-border group-hover:bg-foreground group-hover:text-background transition-colors">
-            Mortgage insurance
+            Expense Splitting
           </div>
         </div>
       </div>
 
-      <!-- Medical Expenses -->
+      <!-- Smart Reminders -->
       <div class="service-card relative rounded-[40px] overflow-hidden group h-[200px] shadow-xl cursor-pointer">
-        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=1000&auto=format&fit=crop" alt="Pills" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1000&auto=format&fit=crop" alt="Smartphone" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
         <div class="absolute bottom-4 left-4">
           <div class="bg-background/80 backdrop-blur-md px-5 py-2.5 rounded-full text-foreground text-sm font-medium border border-border group-hover:bg-foreground group-hover:text-background transition-colors">
-            Medical expenses
+            Smart Reminders
           </div>
         </div>
       </div>
