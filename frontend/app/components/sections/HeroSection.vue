@@ -6,7 +6,7 @@ import { ArrowDown } from 'lucide-vue-next'
   <section class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center min-h-[80vh] relative pt-12">
     <!-- Left Typography -->
     <div class="lg:col-span-7 flex flex-col justify-center">
-      <h1 class="text-[5rem] sm:text-[6rem] md:text-[8rem] lg:text-[9rem] leading-[0.85] font-bold tracking-tighter text-[#f2f4f7] mix-blend-lighten z-10 hero-title">
+      <h1 class="text-[5rem] sm:text-[6rem] md:text-[8rem] lg:text-[9rem] leading-[0.85] font-bold tracking-tighter text-foreground mix-blend-normal z-10 hero-title">
         <span class="block overflow-hidden"><span class="block transform translate-y-full title-line">Darcy's</span></span>
         <span class="block overflow-hidden"><span class="block transform translate-y-full title-line">insurance</span></span>
         <span class="block overflow-hidden"><span class="block transform translate-y-full title-line">products</span></span>
@@ -16,22 +16,22 @@ import { ArrowDown } from 'lucide-vue-next'
     <!-- Center text blurbs -->
     <div class="lg:col-span-2 flex flex-col gap-12 justify-center lg:ml-[-2rem] z-20 mt-8 lg:mt-0 hero-blurbs opacity-0">
       <div class="space-y-4 max-w-[200px]">
-        <div class="w-10 h-10 rounded-full bg-[#1f283d] flex items-center justify-center border border-white/10">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <div class="w-10 h-10 rounded-full bg-card flex items-center justify-center border border-border">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-card-foreground">
+            <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
-        <p class="text-white/70 text-sm leading-relaxed">
-          Our <span class="text-[#84d7e9] underline underline-offset-4 decoration-[#84d7e9]/50">plans</span> are saving policyholders 30% - 60% on premiums
+        <p class="text-muted-foreground text-sm leading-relaxed">
+          Our <span class="text-secondary underline underline-offset-4 decoration-secondary/50">plans</span> are saving policyholders 30% - 60% on premiums
         </p>
       </div>
       <div class="space-y-4 max-w-[200px]">
-        <div class="w-10 h-10 rounded-full bg-[#1f283d] flex items-center justify-center border border-white/10">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <div class="w-10 h-10 rounded-full bg-card flex items-center justify-center border border-border">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-card-foreground">
+            <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
-        <p class="text-white/70 text-sm leading-relaxed">
+        <p class="text-muted-foreground text-sm leading-relaxed">
           We offer a choice of low deductibles and include no cost value-added services.
         </p>
       </div>
@@ -49,8 +49,8 @@ import { ArrowDown } from 'lucide-vue-next'
 
     <!-- Scroll Down Indicator -->
     <div class="absolute bottom-[-40px] left-8 lg:left-32 animate-bounce cursor-pointer opacity-50 hover:opacity-100 transition-opacity">
-       <div class="w-12 h-16 rounded-full bg-[#111726] border border-white/10 flex items-center justify-center">
-         <ArrowDown class="w-5 h-5 text-white" />
+       <div class="w-12 h-16 rounded-full bg-background border border-border flex items-center justify-center">
+         <ArrowDown class="w-5 h-5 text-foreground" />
        </div>
     </div>
   </section>

@@ -32,10 +32,10 @@ onMounted(() => {
       
       <!-- Home Insurance Card -->
       <div class="md:col-span-5 service-card relative rounded-[40px] overflow-hidden group h-[320px] shadow-2xl cursor-pointer">
-        <img src="https://images.unsplash.com/photo-1583847268964-b28ce8f52859?q=80&w=1000&auto=format&fit=crop" alt="Home interior" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1000&auto=format&fit=crop" alt="Home interior" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
         <div class="absolute bottom-6 left-6 right-6">
-          <div class="bg-[#111726]/80 backdrop-blur-md px-6 py-3 rounded-full text-white font-medium inline-flex items-center gap-2 border border-white/10 group-hover:bg-white group-hover:text-black transition-colors">
+          <div class="bg-background/80 backdrop-blur-md px-6 py-3 rounded-full text-foreground font-medium inline-flex items-center gap-2 border border-border group-hover:bg-foreground group-hover:text-background transition-colors">
             Home insurance
           </div>
         </div>
@@ -50,16 +50,16 @@ onMounted(() => {
       </div>
 
       <!-- Best Choice Card -->
-      <div class="md:col-span-4 service-card bg-[#1f283d] rounded-[40px] p-8 flex flex-col justify-between h-[320px] relative overflow-hidden group">
+      <div class="md:col-span-4 service-card bg-card rounded-[40px] p-8 flex flex-col justify-between h-[320px] relative overflow-hidden group">
         <!-- Abstract gradient blob -->
-        <div class="absolute -right-20 -top-20 w-48 h-48 bg-[#84d7e9] opacity-10 rounded-full blur-[50px] group-hover:opacity-20 transition-opacity"></div>
+        <div class="absolute -right-20 -top-20 w-48 h-48 bg-secondary opacity-10 rounded-full blur-[50px] group-hover:opacity-20 transition-opacity"></div>
         <div class="relative z-10">
-          <h3 class="text-4xl font-bold text-white mb-4">Best choice</h3>
-          <p class="text-white/60 text-sm leading-relaxed">
+          <h3 class="text-4xl font-bold text-card-foreground mb-4">Best choice</h3>
+          <p class="text-muted-foreground text-sm leading-relaxed">
             Not all insurance are the same. That's why agency knows that your insurance should be customized to fit your situation.
           </p>
         </div>
-        <button class="relative z-10 bg-[#ff6476] text-white font-semibold py-4 px-6 rounded-full w-full hover:bg-[#e05666] transition-colors hover:shadow-[0_0_20px_rgba(255,100,118,0.4)]">
+        <button class="relative z-10 bg-primary text-primary-foreground font-semibold py-4 px-6 rounded-full w-full hover:bg-primary/90 transition-colors hover:shadow-[0_0_20px_rgba(255,100,118,0.4)]">
           View all services
         </button>
       </div>
@@ -74,7 +74,7 @@ onMounted(() => {
         <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=1000&auto=format&fit=crop" alt="Blue sports car" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
         <div class="absolute bottom-4 left-4">
-          <div class="bg-[#111726]/80 backdrop-blur-md px-5 py-2.5 rounded-full text-white text-sm font-medium border border-white/10 group-hover:bg-white group-hover:text-black transition-colors">
+          <div class="bg-background/80 backdrop-blur-md px-5 py-2.5 rounded-full text-foreground text-sm font-medium border border-border group-hover:bg-foreground group-hover:text-background transition-colors">
             Vehicle damage
           </div>
         </div>
@@ -85,7 +85,7 @@ onMounted(() => {
         <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop" alt="Red house" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
         <div class="absolute bottom-4 left-4">
-          <div class="bg-[#111726]/80 backdrop-blur-md px-5 py-2.5 rounded-full text-white text-sm font-medium border border-white/10 group-hover:bg-white group-hover:text-black transition-colors">
+          <div class="bg-background/80 backdrop-blur-md px-5 py-2.5 rounded-full text-foreground text-sm font-medium border border-border group-hover:bg-foreground group-hover:text-background transition-colors">
             Mortgage insurance
           </div>
         </div>
@@ -96,7 +96,7 @@ onMounted(() => {
         <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=1000&auto=format&fit=crop" alt="Pills" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
         <div class="absolute bottom-4 left-4">
-          <div class="bg-[#111726]/80 backdrop-blur-md px-5 py-2.5 rounded-full text-white text-sm font-medium border border-white/10 group-hover:bg-white group-hover:text-black transition-colors">
+          <div class="bg-background/80 backdrop-blur-md px-5 py-2.5 rounded-full text-foreground text-sm font-medium border border-border group-hover:bg-foreground group-hover:text-background transition-colors">
             Medical expenses
           </div>
         </div>

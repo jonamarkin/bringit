@@ -44,7 +44,7 @@ onMounted(() => {
     
     <!-- Left Title -->
     <div class="lg:col-span-4 flex flex-col justify-center">
-      <h2 class="text-6xl md:text-7xl xl:text-8xl font-bold tracking-tighter text-[#f2f4f7] mix-blend-lighten leading-[0.9] support-text">
+      <h2 class="text-6xl md:text-7xl xl:text-8xl font-bold tracking-tighter text-foreground mix-blend-normal leading-[0.9] support-text">
         Support<br/>
         at every<br/>
         Step
@@ -54,26 +54,26 @@ onMounted(() => {
     <!-- Center Content -->
     <div class="lg:col-span-4 flex flex-col gap-12 justify-center pl-0 lg:pl-8">
       <div class="space-y-4 support-text">
-        <div class="w-10 h-10 rounded-full bg-[#1f283d] flex items-center justify-center border border-white/10">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <div class="w-10 h-10 rounded-full bg-card flex items-center justify-center border border-border">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-card-foreground">
+            <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
-        <p class="text-white/70 text-sm leading-relaxed pr-8">
-          Participate in the <span class="text-[#84d7e9] underline underline-offset-4 decoration-[#84d7e9]/50">loyalty program</span>. Pay for the service online to get bonuses for our other services. We have a lot of bonuses!
+        <p class="text-muted-foreground text-sm leading-relaxed pr-8">
+          Participate in the <span class="text-secondary underline underline-offset-4 decoration-secondary/50">loyalty program</span>. Pay for the service online to get bonuses for our other services. We have a lot of bonuses!
         </p>
       </div>
 
       <div class="space-y-4 support-text">
-        <div class="w-10 h-10 rounded-full bg-[#1f283d] flex items-center justify-center border border-white/10">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <div class="w-10 h-10 rounded-full bg-card flex items-center justify-center border border-border">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-card-foreground">
+            <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
-        <p class="text-white/70 text-sm leading-relaxed pr-8">
+        <p class="text-muted-foreground text-sm leading-relaxed pr-8">
           You can help other people: choose a donation fund and share the link with your friends!
         </p>
-        <button class="mt-4 border border-[#ff6476] text-[#ff6476] font-medium py-3 px-8 rounded-full hover:bg-[#ff6476] hover:text-white transition-colors duration-300">
+        <button class="mt-4 border border-primary text-primary font-medium py-3 px-8 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
           Choose a fund
         </button>
       </div>
