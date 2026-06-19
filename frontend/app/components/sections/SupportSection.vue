@@ -43,37 +43,37 @@ onMounted(() => {
   <section class="support-section grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center mt-40">
     
     <!-- Left Title -->
-    <div class="lg:col-span-4 flex flex-col justify-center">
-      <h2 class="text-6xl md:text-7xl xl:text-8xl font-bold tracking-tighter text-foreground mix-blend-normal leading-[0.9] support-text">
+    <div class="lg:col-span-4 flex flex-col justify-center pr-4">
+      <h2 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tighter text-foreground mix-blend-normal leading-tight support-text pb-4">
         Split the<br/>
         bill<br/>
-        effortlessly
+        easily
       </h2>
     </div>
 
     <!-- Center Content -->
-    <div class="lg:col-span-4 flex flex-col gap-12 justify-center pl-0 lg:pl-8">
-      <div class="space-y-4 support-text">
-        <div class="w-10 h-10 rounded-full bg-card flex items-center justify-center border border-border">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-card-foreground">
+    <div class="lg:col-span-4 flex flex-col gap-8 justify-center pl-0 lg:pl-8">
+      <div class="space-y-5 support-text bg-card/50 p-6 rounded-3xl border border-border/50">
+        <div class="w-12 h-12 rounded-full bg-background flex items-center justify-center border border-border shadow-sm">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary">
             <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
-        <p class="text-muted-foreground text-sm leading-relaxed pr-8">
-          Organizing an event shouldn't mean you pay for everything. With <span class="text-secondary underline underline-offset-4 decoration-secondary/50">BringIt</span>, you can easily track who bought what and split the costs.
+        <p class="text-muted-foreground text-sm leading-relaxed">
+          Organizing an event shouldn't mean you pay for everything. With <span class="text-secondary font-medium">BringIt</span>, you can easily track who bought what and split the costs.
         </p>
       </div>
 
-      <div class="space-y-4 support-text">
-        <div class="w-10 h-10 rounded-full bg-card flex items-center justify-center border border-border">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-card-foreground">
+      <div class="space-y-5 support-text bg-card/50 p-6 rounded-3xl border border-border/50">
+        <div class="w-12 h-12 rounded-full bg-background flex items-center justify-center border border-border shadow-sm">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary">
             <path d="M12 2L12 22M2 12L22 12M5 5L19 19M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
-        <p class="text-muted-foreground text-sm leading-relaxed pr-8">
+        <p class="text-muted-foreground text-sm leading-relaxed">
           Let your friends contribute exactly their share, directly from the event page.
         </p>
-        <button class="mt-4 border border-primary text-primary font-medium py-3 px-8 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
+        <button class="mt-2 border border-primary text-primary font-medium py-3 px-8 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors duration-300 w-max">
           Learn about payments
         </button>
       </div>

@@ -56,7 +56,7 @@ onMounted(() => {
         <div class="relative z-10">
           <h3 class="text-4xl font-bold text-card-foreground mb-4">Host smoothly</h3>
           <p class="text-muted-foreground text-sm leading-relaxed">
-            Throwing a party shouldn't mean fronting all the costs or tracking who's bringing the ice. We handle the logistics so you can enjoy the BBQ.
+            Hosting a gathering shouldn't mean fronting all the costs or tracking who's bringing the ice. We handle the logistics so you can enjoy the moment.
           </p>
         </div>
         <NuxtLink to="/event/lulea-bbq" class="relative z-10 bg-primary text-primary-foreground font-semibold py-4 px-6 rounded-full w-full text-center hover:bg-primary/90 transition-colors hover:shadow-[0_0_20px_rgba(255,100,118,0.4)] block">
