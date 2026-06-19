@@ -7,9 +7,9 @@ import { ArrowDown } from 'lucide-vue-next'
     <!-- Left Typography -->
     <div class="lg:col-span-7 flex flex-col justify-center">
       <h1 class="text-[5rem] sm:text-[6rem] md:text-[8rem] lg:text-[9rem] leading-[0.95] font-bold tracking-tighter text-foreground mix-blend-normal z-10 hero-title">
-        <span class="block overflow-hidden"><span class="block transform translate-y-full title-line pb-4 -mb-4">BringIt</span></span>
-        <span class="block overflow-hidden"><span class="block transform translate-y-full title-line pb-4 -mb-4">to the</span></span>
-        <span class="block overflow-hidden"><span class="block transform translate-y-full title-line pb-4 -mb-4">party</span></span>
+        <span class="block overflow-hidden pb-8 -mb-8"><span class="block transform translate-y-full title-line">BringIt</span></span>
+        <span class="block overflow-hidden pb-8 -mb-8"><span class="block transform translate-y-full title-line">to the</span></span>
+        <span class="block overflow-hidden pb-8 -mb-8"><span class="block transform translate-y-full title-line">party</span></span>
       </h1>
     </div>
 
